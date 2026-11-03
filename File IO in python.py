@@ -20,12 +20,17 @@ h = open(
     "myfile.txt", "a"
 )  # here we are adding addition or new information in our file without deleting the old contents.
 # h.write("\nI am adding new information")#this will added just down line of our previous file contents using \n and we are append means adding new line so we use write to add
+h.writelines(
+    "Apple\n", "Banana\n", "mango\n"
+)  # here we are adding multiple lines and writelines()doesn't automatically make out information to next lines so we use \n to send it another lines.
 file = open("newmyfile.txt", "x")  # creating new file but it shouldn't be exist before
 # file.write("newmyfile.txt")#this can create a new file named newmyfile.txt
 f.close()  # close the file and this should be included everyfile handling operation at the end
 ##close() operation after every file handling is boring so python provides an easier and safer method-with open()e.g
-with open("myfile.txt", "r") as g:
+with open("myfile.txt", "r") as g:  # here g means fiile object the variable name g.
     content = g.read()
     print(
         content
     )  # we don't need to call close() everytime python automatically close it even any error occur and we can use this for write and every file handling operation
+
+##file position -seek() and tell() is a built-in IO moduleare the function that is used to work with file objects and their positions within a file

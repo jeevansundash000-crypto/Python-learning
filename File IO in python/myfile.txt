@@ -1,0 +1,3 @@
+hey my name is jeevan sundash
+#hello#this was output of write()
+I am adding new information#append new information output

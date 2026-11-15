@@ -12,7 +12,7 @@ try:
 
     for x in range(1, 11):
         print(f"{int(b)} X {x} = {int(a)*x}")
-except Exception as e:  # we can write like this also
+except Exception as e:  # we can write like this also 
     print(e)
 # except:  # this also can be used
 # print("Invalid Input")

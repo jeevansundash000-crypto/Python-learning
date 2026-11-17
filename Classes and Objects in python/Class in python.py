@@ -9,3 +9,4 @@ print(student1.name)
 print(student1.age)
 #we use dot(.) operator to access an object's attributes(data or properties)
 #continue in file __init__() in python.py
+

@@ -35,3 +35,8 @@ with open("myfile.txt", "r") as g:  # here g means fiile object the variable nam
 #r+ means read and write boths with save our file initially contents.
 #w+ means write and read boths and if there is any existing contents in our file before we used w+ on that file then that contents will erase.
 #a+ means boths read and write it's save our old existing contents and in append mode when we add new contents then it's will be in last line not in first even we use seek()
+##file position -seek() and tell() is a built-in IO module are the function that is used to work with file objects and their positions
+##tell() it's tells you the current file position e.g
+with open("myfile.txt", 'r') as w:
+    print(w.read(5))
+    print(w.tell())

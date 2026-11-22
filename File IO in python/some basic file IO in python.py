@@ -24,6 +24,7 @@ h.writelines(
 file = open("newmyfile.txt", "x")  # creating new file but it shouldn't be exist before
 # file.write("newmyfile.txt")#this can create a new file named newmyfile.txt
 f.close()  # close the file and this should be included everyfile handling operation at the end
+
 ##close() operation after every file handling is boring so python provides an easier and safer method-with open()e.g
 with open("myfile.txt", "r") as g:  # here g means fiile object the variable name g.
     content = g.read()

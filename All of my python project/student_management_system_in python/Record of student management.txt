@@ -1,0 +1,8 @@
+Name of the student:jeevan
+Age:18
+Address:belbari
+Grade:11
+Contact_number:9800000000
+Guardian_name:doma_sundash
+Email.ID:jeevansundash000@gmail.com
+------------------------------------------
